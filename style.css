@@ -1,0 +1,109 @@
+@import url(
+    'https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(1, 171, 170);
+}
+
+body{
+    background-image: url(img/Wallpaper.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 200px;
+}
+
+.card{
+    background-color: #ffffff80;
+    padding: 30px;
+    border-radius: 4%;
+    box-shadow: 3px 3px 1px 0px #00000070;
+}
+
+.label-float input{
+    width: 100%;
+    padding: 5px;
+    display: inline-block;
+    border: 0;
+    border-bottom: 2px solid rgb(1, 171, 170);
+    background-color: transparent;
+    outline: none;
+    min-width: 180px;
+    font-size: 16px;
+    border-radius: 0;
+}
+
+.label-float{
+    position: relative;
+    padding-top: 13px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.label-float label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 1px;
+}
+
+button{
+    background-color: transparent;
+    border-color: rgb(1, 171, 170);
+    color: rgb(1, 171, 170);
+    padding: 7%;
+    font-weight: bold;
+    font-size: 12pt;
+    margin-top: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    transition: all .3s ease-out;
+}
+
+button:hover{
+    background-color: rgb(1, 171, 170);
+    color: white;
+}
+
+.justify-center{
+    display: flex;
+    justify-content: center;
+}
+
+hr{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 100%;
+}
+
+p{
+    color: rgb(1, 171, 170);
+    font-size: 14pt;
+    text-align: center;
+}
+
+a{
+    color: rgb(12, 165, 165);
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .3s ease-out;
+}
+
+a:hover{
+    color: white;
+}
